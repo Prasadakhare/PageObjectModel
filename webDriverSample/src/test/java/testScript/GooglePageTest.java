@@ -16,7 +16,14 @@ public class GooglePageTest {
 	  driver  = new ChromeDriver();
 	  //driver.get("https://www.google.com/");
 	 // driver.findElement(By.className("gLFyf"));                         Class_Name
-	// WebElement  SearchBox = driver.findElement(By.id("APjFqb"));          //Using Id
+	//WebElement  SearchBox = driver.findElement(By.id("APjFqb"));          //Using Id
+	
+	//SearchBox.sendKeys("selenium");
+	//SearchBox.submit();              //submit method
+	
+	driver.get("https://automationbookstore.dev/");
+	
+	
 	// driver.findElement(By.name("q")).sendKeys("Selenium Tutprial");     using name
     // SearchBox.sendKeys("Selenium Tutorial");
 	 //SearchBox.sendKeys(Keys.ENTER);
@@ -25,8 +32,9 @@ public class GooglePageTest {
 	// Assert.assertEquals(driver.getTitle(), "Selenium Tutorial - Google Search Page");   //Test_Fail
 	  
 	  
-	driver.get("https://testautomationpractice.blogspot.com/");	  
-WebElement p=	driver.findElement(By.xpath("//table[@name='BookTable']//descendant::tr[2]/td[4]"));   
+	//driver.get("https://testautomationpractice.blogspot.com/");	  
+//WebElement p=	driver.findElement(By.xpath("//table[@name='BookTable']//descendant::tr[2]/td[4]"));   
+	  
              
 
 	
