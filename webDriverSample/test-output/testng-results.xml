@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-10T12:57:25 IST" name="Default suite" finished-at="2024-12-10T12:57:31 IST" duration-ms="5114">
+  <suite started-at="2024-12-11T13:22:59 IST" name="Default suite" finished-at="2024-12-11T13:23:08 IST" duration-ms="8730">
     <groups>
     </groups>
-    <test started-at="2024-12-10T12:57:25 IST" name="Default test" finished-at="2024-12-10T12:57:31 IST" duration-ms="5114">
-      <class name="testScript.GooglePageTest">
-        <test-method signature="seleniumSearchTest()[pri:0, instance:testScript.GooglePageTest@fba92d3]" started-at="2024-12-10T12:57:26 IST" name="seleniumSearchTest" finished-at="2024-12-10T12:57:31 IST" duration-ms="5023" status="PASS">
+    <test started-at="2024-12-11T13:22:59 IST" name="Default test" finished-at="2024-12-11T13:23:08 IST" duration-ms="8730">
+      <class name="testScript.DropDown">
+        <test-method signature="dropdowun()[pri:0, instance:testScript.DropDown@fa49800]" started-at="2024-12-11T13:22:59 IST" name="dropdowun" finished-at="2024-12-11T13:23:08 IST" duration-ms="8642" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- seleniumSearchTest -->
-      </class> <!-- testScript.GooglePageTest -->
+        </test-method> <!-- dropdowun -->
+      </class> <!-- testScript.DropDown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

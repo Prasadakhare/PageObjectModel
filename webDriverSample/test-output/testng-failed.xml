@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScript.GooglePageTest">
+      <class name="testScript.Iframe">
         <methods>
-          <include name="seleniumSearchTest"/>
+          <include name="window_iframe"/>
         </methods>
-      </class> <!-- testScript.GooglePageTest -->
+      </class> <!-- testScript.Iframe -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
