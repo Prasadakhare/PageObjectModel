@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-11T13:22:59 IST" name="Default suite" finished-at="2024-12-11T13:23:08 IST" duration-ms="8730">
+  <suite started-at="2024-12-12T13:16:22 IST" name="Default suite" finished-at="2024-12-12T13:16:37 IST" duration-ms="15457">
     <groups>
     </groups>
-    <test started-at="2024-12-11T13:22:59 IST" name="Default test" finished-at="2024-12-11T13:23:08 IST" duration-ms="8730">
-      <class name="testScript.DropDown">
-        <test-method signature="dropdowun()[pri:0, instance:testScript.DropDown@fa49800]" started-at="2024-12-11T13:22:59 IST" name="dropdowun" finished-at="2024-12-11T13:23:08 IST" duration-ms="8642" status="PASS">
+    <test started-at="2024-12-12T13:16:22 IST" name="Default test" finished-at="2024-12-12T13:16:37 IST" duration-ms="15457">
+      <class name="testScript.GoogleTestSearch">
+        <test-method is-config="true" signature="close()[pri:0, instance:testScript.GoogleTestSearch@593aaf41]" started-at="2024-12-12T13:16:22 IST" name="close" finished-at="2024-12-12T13:16:25 IST" duration-ms="2995" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropdowun -->
-      </class> <!-- testScript.DropDown -->
+        </test-method> <!-- close -->
+        <test-method signature="javaTutorial()[pri:1, instance:testScript.GoogleTestSearch@593aaf41]" started-at="2024-12-12T13:16:25 IST" name="javaTutorial" finished-at="2024-12-12T13:16:29 IST" duration-ms="4388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaTutorial -->
+        <test-method signature="cucumberTutorial()[pri:2, instance:testScript.GoogleTestSearch@593aaf41]" started-at="2024-12-12T13:16:29 IST" name="cucumberTutorial" finished-at="2024-12-12T13:16:33 IST" duration-ms="3710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cucumberTutorial -->
+        <test-method signature="seleniumTutorial()[pri:3, instance:testScript.GoogleTestSearch@593aaf41]" started-at="2024-12-12T13:16:33 IST" name="seleniumTutorial" finished-at="2024-12-12T13:16:37 IST" duration-ms="3933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumTutorial -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScript.GoogleTestSearch@593aaf41]" started-at="2024-12-12T13:16:37 IST" name="setUp" finished-at="2024-12-12T13:16:37 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- testScript.GoogleTestSearch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
