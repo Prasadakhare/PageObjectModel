@@ -50,7 +50,7 @@ public class GoogleTestSearch {
 
   }
   
-  @Test(priority=2)
+  @Test(alwaysRun=true, dependsOnMethods="seleniumTutorial")
   public void cucumberTutorial() throws InterruptedException {
 
 		 driver.get("https://www.google.com/");

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Sample_Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="ModuleOneTest(failed)">
+<suite thread-count="2" parallel="classes" name="Failed suite [Sample_Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <test thread-count="2" parallel="classes" name="ModuleOneTest(failed)">
     <classes>
-      <class name="testScript.GoogleTestSearch">
+      <class name="parallelScript.SamplOneTest$LoginTest$SampleOneTest">
         <methods>
-          <include name="javaTutorial"/>
-          <include name="close"/>
-          <include name="setUp"/>
+          <include name="testOne"/>
         </methods>
-      </class> <!-- testScript.GoogleTestSearch -->
+      </class> <!-- parallelScript.SamplOneTest$LoginTest$SampleOneTest -->
     </classes>
   </test> <!-- ModuleOneTest(failed) -->
 </suite> <!-- Failed suite [Sample_Suite] -->

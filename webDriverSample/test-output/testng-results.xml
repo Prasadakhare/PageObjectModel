@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-12T13:16:22 IST" name="Default suite" finished-at="2024-12-12T13:16:37 IST" duration-ms="15457">
+  <suite started-at="2024-12-13T13:20:20 IST" name="Default suite" finished-at="2024-12-13T13:20:20 IST" duration-ms="233">
     <groups>
     </groups>
-    <test started-at="2024-12-12T13:16:22 IST" name="Default test" finished-at="2024-12-12T13:16:37 IST" duration-ms="15457">
-      <class name="testScript.GoogleTestSearch">
-        <test-method is-config="true" signature="close()[pri:0, instance:testScript.GoogleTestSearch@593aaf41]" started-at="2024-12-12T13:16:22 IST" name="close" finished-at="2024-12-12T13:16:25 IST" duration-ms="2995" status="PASS">
+    <test started-at="2024-12-13T13:20:20 IST" name="Default test" finished-at="2024-12-13T13:20:20 IST" duration-ms="233">
+      <class name="parallelScript.SamplOneTest$LoginTest$SampleOneTest">
+        <test-method signature="testFour()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testFour" finished-at="2024-12-13T13:20:20 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-        <test-method signature="javaTutorial()[pri:1, instance:testScript.GoogleTestSearch@593aaf41]" started-at="2024-12-12T13:16:25 IST" name="javaTutorial" finished-at="2024-12-12T13:16:29 IST" duration-ms="4388" status="PASS">
+        </test-method> <!-- testFour -->
+        <test-method signature="testOne()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testOne" finished-at="2024-12-13T13:20:20 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- javaTutorial -->
-        <test-method signature="cucumberTutorial()[pri:2, instance:testScript.GoogleTestSearch@593aaf41]" started-at="2024-12-12T13:16:29 IST" name="cucumberTutorial" finished-at="2024-12-12T13:16:33 IST" duration-ms="3710" status="PASS">
+        </test-method> <!-- testOne -->
+        <test-method signature="testOne()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testOne" finished-at="2024-12-13T13:20:20 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cucumberTutorial -->
-        <test-method signature="seleniumTutorial()[pri:3, instance:testScript.GoogleTestSearch@593aaf41]" started-at="2024-12-12T13:16:33 IST" name="seleniumTutorial" finished-at="2024-12-12T13:16:37 IST" duration-ms="3933" status="PASS">
+        </test-method> <!-- testOne -->
+        <test-method signature="testOne()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testOne" finished-at="2024-12-13T13:20:20 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- seleniumTutorial -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testScript.GoogleTestSearch@593aaf41]" started-at="2024-12-12T13:16:37 IST" name="setUp" finished-at="2024-12-12T13:16:37 IST" duration-ms="369" status="PASS">
+        </test-method> <!-- testOne -->
+        <test-method signature="testOne()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testOne" finished-at="2024-12-13T13:20:20 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-      </class> <!-- testScript.GoogleTestSearch -->
+        </test-method> <!-- testOne -->
+        <test-method signature="testThree()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testThree" finished-at="2024-12-13T13:20:20 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method signature="testTwo()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testTwo" finished-at="2024-12-13T13:20:20 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- parallelScript.SamplOneTest$LoginTest$SampleOneTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
