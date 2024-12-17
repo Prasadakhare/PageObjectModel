@@ -38,7 +38,7 @@ public class GoogleTestSearch {
 		 Thread.sleep(2000);
 		 Assert.assertEquals(driver.getTitle(), "Java Tutorial - Google Search");
   }
-  @Test(priority=3)
+  @Test(retryAnalyzer = RetryAnalyseSample.class)      //trying to run multiple time 
   public void seleniumTutorial() throws InterruptedException {
 
 		 driver.get("https://www.google.com/");
@@ -46,7 +46,7 @@ public class GoogleTestSearch {
 		 search.sendKeys("Selenium Tutorial");
 		 search.submit();
 		 Thread.sleep(2000);
-		 Assert.assertEquals(driver.getTitle(), "Selenium Tutorial - Google Search");
+		 Assert.assertEquals(driver.getTitle(), "Selenium Tutorial - -Google Search");
 
   }
   

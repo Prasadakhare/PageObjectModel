@@ -1,41 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-13T13:20:20 IST" name="Default suite" finished-at="2024-12-13T13:20:20 IST" duration-ms="233">
+  <suite started-at="2024-12-17T13:27:22 IST" name="Default suite" finished-at="2024-12-17T13:27:31 IST" duration-ms="8720">
     <groups>
     </groups>
-    <test started-at="2024-12-13T13:20:20 IST" name="Default test" finished-at="2024-12-13T13:20:20 IST" duration-ms="233">
-      <class name="parallelScript.SamplOneTest$LoginTest$SampleOneTest">
-        <test-method signature="testFour()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testFour" finished-at="2024-12-13T13:20:20 IST" duration-ms="22" status="PASS">
+    <test started-at="2024-12-17T13:27:22 IST" name="Default test" finished-at="2024-12-17T13:27:31 IST" duration-ms="8720">
+      <class name="testScript.CDPTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScript.CDPTest@7bd4937b]" started-at="2024-12-17T13:27:22 IST" name="setup" finished-at="2024-12-17T13:27:26 IST" duration-ms="3403" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFour -->
-        <test-method signature="testOne()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testOne" finished-at="2024-12-13T13:20:20 IST" duration-ms="19" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="geoLocationTest()[pri:0, instance:testScript.CDPTest@7bd4937b]" started-at="2024-12-17T13:27:26 IST" name="geoLocationTest" finished-at="2024-12-17T13:27:31 IST" duration-ms="5214" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method signature="testOne()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testOne" finished-at="2024-12-13T13:20:20 IST" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method signature="testOne()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testOne" finished-at="2024-12-13T13:20:20 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method signature="testOne()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testOne" finished-at="2024-12-13T13:20:20 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method signature="testThree()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testThree" finished-at="2024-12-13T13:20:20 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThree -->
-        <test-method signature="testTwo()[pri:0, instance:parallelScript.SamplOneTest$LoginTest$SampleOneTest@f0da945]" started-at="2024-12-13T13:20:20 IST" name="testTwo" finished-at="2024-12-13T13:20:20 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- parallelScript.SamplOneTest$LoginTest$SampleOneTest -->
+        </test-method> <!-- geoLocationTest -->
+      </class> <!-- testScript.CDPTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

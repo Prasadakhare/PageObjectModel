@@ -5,7 +5,7 @@
     <classes>
       <class name="Tasks.Parry_Hotter_Project.DisplayWeb">
         <methods>
-          <include name="search"/>
+          <include name="addToCart"/>
           <include name="setup"/>
         </methods>
       </class> <!-- Tasks.Parry_Hotter_Project.DisplayWeb -->
