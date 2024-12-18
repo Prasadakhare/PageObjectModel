@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScript.RemteWebDriverTest">
+      <class name="TestScript.PlaceOrderTest">
         <methods>
-          <include name="test"/>
+          <include name="setup"/>
+          <include name="addItemTest"/>
         </methods>
-      </class> <!-- testScript.RemteWebDriverTest -->
+      </class> <!-- TestScript.PlaceOrderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
