@@ -5,8 +5,8 @@
     <classes>
       <class name="TestScript.PlaceOrderTest">
         <methods>
+          <include name="checkoutPage"/>
           <include name="setup"/>
-          <include name="addItemTest"/>
         </methods>
       </class> <!-- TestScript.PlaceOrderTest -->
     </classes>

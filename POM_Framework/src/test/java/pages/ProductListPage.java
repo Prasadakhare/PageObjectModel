@@ -32,5 +32,6 @@ public class ProductListPage {
 	public  boolean isOnProducts() {
 		return productsTitle.isDisplayed();
 	}
-
+    
+	
 }
